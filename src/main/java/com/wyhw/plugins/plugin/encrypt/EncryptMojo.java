@@ -1,4 +1,4 @@
-package com.wyhw.plugins.plugin;
+package com.wyhw.plugins.plugin.encrypt;
 
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;

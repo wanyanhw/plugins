@@ -1,7 +1,5 @@
-package com.wyhw.plugins.plugin;
+package com.wyhw.plugins.plugin.encrypt;
 
-import com.wyhw.plugins.plugin.encrypt.UnclosedInputStream;
-import com.wyhw.plugins.plugin.encrypt.UnclosedOutputStream;
 import org.apache.commons.compress.archivers.jar.JarArchiveEntry;
 import org.apache.commons.compress.archivers.jar.JarArchiveInputStream;
 import org.apache.commons.compress.archivers.jar.JarArchiveOutputStream;

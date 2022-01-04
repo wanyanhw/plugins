@@ -62,7 +62,7 @@
         </plugins>
     </build>
 > Tip：参数可通过命令行参数设置<br>
-    `com.wyhw.plugins.plugin.EncryptMojo`
+    `com.wyhw.plugins.plugin.encrypt.EncryptMojo`
    
     /**
      * 是否执行加密逻辑标识，默认“不加密”
