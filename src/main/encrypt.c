@@ -13,7 +13,7 @@ void encode(char *str) {
     }
 }
 
-JNIEXPORT jbyteArray JNICALL Java_com_wyhw_plugin_JarEncryptUtil_encrypt(JNIEnv * env, jclass cls, jbyteArray bytes) {
+JNIEXPORT jbyteArray JNICALL Java_com_wyhw_plugins_plugin_JarEncryptUtil_encrypt(JNIEnv * env, jclass cls, jbyteArray bytes) {
     char* dst = (char *) ((*env) -> GetByteArrayElements(env, bytes, 0));
     encode(dst);
     (*env) -> SetByteArrayRegion(env, bytes, 0, strlen(dst), (jbyte *) dst);
