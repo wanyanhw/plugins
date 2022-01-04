@@ -21,8 +21,8 @@
         <dependencies>
             <!-- 加密 Maven 插件依赖-->
             <dependency>
-                <groupId>com.zk</groupId>
-                <artifactId>zk-common-plugins</artifactId>
+                <groupId>com.wyhw.plugin</groupId>
+                <artifactId>encrypt-maven-plugin</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
         </dependencies>
