@@ -6,7 +6,7 @@
 ># 二、快速使用
 
 >## 1、创建动态代理库
->######项目路径下 encrypt.c 文件是 C++ 源代码，通过以下方式编译成相应的本地动态库文件，并将生成的动态库文件添加到系统路径
+>###### 项目路径下 encrypt.c 文件是 C++ 源代码，通过以下方式编译成相应的本地动态库文件，并将生成的动态库文件添加到系统路径
 > - windows
 >>     gcc -shared encrypt.c -o encrypt.dll -I "{JAVA_HOME}/include" -I "{JAVA_HOME}/include/win32"
 > - linux

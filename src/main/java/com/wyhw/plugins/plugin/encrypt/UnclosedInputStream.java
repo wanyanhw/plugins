@@ -6,8 +6,8 @@ import java.io.InputStream;
 /**
  * 不关闭的输入流
  *
- * @author Payne 646742615@qq.com
- * 2018/11/22 17:01
+ * @author wanyanhw
+ * @since 2021/12/31 10:44
  */
 public class UnclosedInputStream extends InputStream {
     private final InputStream in;

@@ -24,7 +24,7 @@ import org.apache.maven.project.MavenProject;
 		defaultPhase = LifecyclePhase.PACKAGE,
 		requiresDependencyResolution = ResolutionScope.COMPILE_PLUS_RUNTIME
 )
-public class EncryptMojo extends AbstractMojo{
+public class EncryptMojo extends AbstractMojo {
 
 	@Parameter(defaultValue = "${project}", readonly = true)
 	private MavenProject project;

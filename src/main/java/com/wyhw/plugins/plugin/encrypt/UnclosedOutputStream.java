@@ -6,8 +6,8 @@ import java.io.OutputStream;
 /**
  * 不关闭的输出流
  *
- * @author Payne 646742615@qq.com
- * 2018/11/22 16:32
+ * @author wanyanhw
+ * @since 2021/12/31 10:44
  */
 public class UnclosedOutputStream extends OutputStream {
     private final OutputStream out;
