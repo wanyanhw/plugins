@@ -28,7 +28,7 @@ void JNICALL ClassDecryptHook(jvmtiEnv *jvmti_env, JNIEnv* jni_env, jclass class
     *new_class_data_len = class_data_len;
     (*jvmti_env) -> Allocate(jvmti_env, class_data_len, new_class_data);
     unsigned char* _data = *new_class_data;
-	if (name && strncmp(name, "com/zk/sdk", 10) == 0 && strstr(name, "$$") == NULL) {
+	if (name && strncmp(name, "com/{your-project-path}", 10) == 0 && strstr(name, "$$") == NULL) {
 		//printf("\n\nhit: %s\n", (char *) name);
 		//printf("len=%d\n\n", class_data_len);
 		for (int i = 0; i < class_data_len; ++i) {
